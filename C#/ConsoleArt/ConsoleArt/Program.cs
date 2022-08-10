@@ -10,6 +10,17 @@ namespace ConsoleArt
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("    A      DDDDD         ");
+            Console.WriteLine("   A A     D    DD         ");
+            Console.WriteLine("  AAAAA    D     D         ");
+            Console.WriteLine(" A     A   D    DD         ");
+            Console.WriteLine("A       A  DDDDD     ");
+            Console.ReadLine();
+
+
+
+
+
         }
     }
 }
