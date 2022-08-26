@@ -9,14 +9,9 @@ namespace mupt_answers
     {
         static void Main(string[] args)
         {
-            showQuestion("How Many moons does earth have", " a)1", " b)2", " c)0,",
-" d)6", "a");
-
+            showQuestion("How Many moons does earth have", " a)1", " b)2", " c)0,"," d)6", "a");
             showQuestion("What is 15+2", " a)1", " b)2", " c)17,", " d)6", "c");
-
-            showQuestion("What is a color ", " a)15", " b)red", " c)dog,", " d)6",
-"c");
-
+            showQuestion("What is a color ", " a)15", " b)red", " c)dog,", " d)6","c");
             showQuestion("What is 1+1", " a)1", " b)2", " c)0,", " d)6", "b");
             Console.ReadKey();
         }
@@ -37,6 +32,7 @@ namespace mupt_answers
             {
                 Console.WriteLine("you got it right ");
                 Console.ReadKey();
+
             }
 
         }
