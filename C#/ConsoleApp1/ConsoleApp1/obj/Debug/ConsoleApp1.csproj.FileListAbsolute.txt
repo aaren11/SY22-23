@@ -1,0 +1,8 @@
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\atdic365\Documents\SY22-23\C#\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
