@@ -27,8 +27,8 @@ namespace Game
             if (!m_parent.isClear(m_picture,m_picture.Location.X + m_xdir, m_picture.Location.Y))
                 m_xdir *= -1;
             if (!m_parent.isClear(m_picture, m_picture.Location.X, m_picture.Location.Y + m_ydir))
-            {//  m_ydir *= -1;
-            m_picture.Location=new point (m_xdir,10, m_ydir,10);
+            {  m_ydir *= -1;
+            
             }
             return false; // bounce
         }
