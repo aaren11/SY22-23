@@ -13,6 +13,7 @@ namespace Game
 {
     public partial class Form1 : Form
     {
+
         public Canvas c = null;
         Sprite p1;
         Chaser p2;
@@ -104,7 +105,15 @@ namespace Game
             c.tick();
         }
 
+        private void Ballpicture_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

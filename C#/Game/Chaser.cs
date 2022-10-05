@@ -20,16 +20,16 @@ namespace Game
         }
         public override void tick()
         {
-            Sprite other = m_parent.getSpriteByName("player");
+            Sprite other = m_parent.getSpriteByName("Ballpicture");
           
             if (other.m_location.X < this.m_location.X)
-                m_xdir = -5;
+                m_xdir = -6;
             else
-                m_xdir = 5;
+                m_xdir = 6;
             if (other.m_location.Y < this.m_location.Y)
-                m_ydir = -5;
+                m_ydir = -6;
             else
-                m_ydir = 5;
+                m_ydir = 6;
            
             move(m_xdir, m_ydir);
 
