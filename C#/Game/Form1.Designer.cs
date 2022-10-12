@@ -35,9 +35,9 @@ namespace Game
             this.player2 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.Bottom = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.Ballpicture = new System.Windows.Forms.PictureBox();
-            this.Top = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.P1score = new System.Windows.Forms.Label();
@@ -45,9 +45,9 @@ namespace Game
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bottom)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ballpicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Top)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -88,21 +88,21 @@ namespace Game
             this.progressBar1.Size = new System.Drawing.Size(89, 18);
             this.progressBar1.TabIndex = 2;
             // 
-            // Bottom
+            // pictureBox7
             // 
-            this.Bottom.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Bottom.Location = new System.Drawing.Point(0, 618);
-            this.Bottom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Bottom.Name = "Bottom";
-            this.Bottom.Size = new System.Drawing.Size(1211, 18);
-            this.Bottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Bottom.TabIndex = 3;
-            this.Bottom.TabStop = false;
+            this.pictureBox7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 618);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(1211, 18);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 3;
+            this.pictureBox7.TabStop = false;
             // 
             // Ballpicture
             // 
             this.Ballpicture.BackColor = System.Drawing.Color.IndianRed;
-            this.Ballpicture.Location = new System.Drawing.Point(873, 72);
+            this.Ballpicture.Location = new System.Drawing.Point(463, 135);
             this.Ballpicture.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Ballpicture.Name = "Ballpicture";
             this.Ballpicture.Size = new System.Drawing.Size(17, 15);
@@ -111,16 +111,16 @@ namespace Game
             this.Ballpicture.TabStop = false;
             this.Ballpicture.Click += new System.EventHandler(this.Ballpicture_Click);
             // 
-            // Top
+            // pictureBox8
             // 
-            this.Top.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Top.Location = new System.Drawing.Point(11, 11);
-            this.Top.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Top.Name = "Top";
-            this.Top.Size = new System.Drawing.Size(1200, 13);
-            this.Top.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Top.TabIndex = 5;
-            this.Top.TabStop = false;
+            this.pictureBox8.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.pictureBox8.Location = new System.Drawing.Point(11, 11);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(1200, 13);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -181,9 +181,9 @@ namespace Game
             this.Controls.Add(this.P1score);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.Top);
+            this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.Ballpicture);
-            this.Controls.Add(this.Bottom);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.player2);
             this.Controls.Add(this.player);
@@ -194,9 +194,9 @@ namespace Game
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Bottom)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Ballpicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Top)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
@@ -210,9 +210,9 @@ namespace Game
         private System.Windows.Forms.PictureBox player2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.PictureBox Bottom;
+        private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox Ballpicture;
-        private System.Windows.Forms.PictureBox Top;
+        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label P1score;

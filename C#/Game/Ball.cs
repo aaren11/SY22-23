@@ -6,12 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace Game
 {
-    
     internal class Ball : Sprite
     {
-
         int m_xdir = 0;
         int m_ydir = 0;
         public Ball(PictureBox picture, int xdir, int ydir) : base(picture)
@@ -24,12 +23,11 @@ namespace Game
             Debug.Print(m_picture.Name + " collided with " + other.Name);
             // We collided, so let's figure out which way we should "bounce"
             // Clear
-            if (!m_parent.isClear(m_picture,m_picture.Location.X + m_xdir, m_picture.Location.Y))
+            if (m_xdir != 0)
                 m_xdir *= -1;
-            if (!m_parent.isClear(m_picture, m_picture.Location.X, m_picture.Location.Y + m_ydir))
-            {  m_ydir *= -1;
-            
-            }
+            else
+                m_ydir *= -1;
+
             return false; // bounce
         }
         public override void tick()
@@ -39,10 +37,10 @@ namespace Game
             m_xdir = 0;
             move(0, m_ydir);
             m_xdir = tmpX;
-        
+
             int tmpY = m_ydir;
             m_ydir = 0;
-            move(m_xdir,0);
+            move(m_xdir, 0);
             m_ydir = tmpY;
         }
     }

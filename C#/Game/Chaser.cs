@@ -23,13 +23,13 @@ namespace Game
             Sprite other = m_parent.getSpriteByName("Ballpicture");
           
             if (other.m_location.X < this.m_location.X)
-                m_xdir = -6;
+                m_xdir = -7;
             else
-                m_xdir = 6;
+                m_xdir = 7;
             if (other.m_location.Y < this.m_location.Y)
-                m_ydir = -6;
+                m_ydir = -7;
             else
-                m_ydir = 6;
+                m_ydir = 7;
            
             move(m_xdir, m_ydir);
 
