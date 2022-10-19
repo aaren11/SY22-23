@@ -1,0 +1,8 @@
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\bin\Debug\Looping.exe.config
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\bin\Debug\Looping.exe
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\bin\Debug\Looping.pdb
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\obj\Debug\Looping.csproj.AssemblyReference.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\obj\Debug\Looping.csproj.SuggestedBindingRedirects.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\obj\Debug\Looping.csproj.CoreCompileInputs.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\obj\Debug\Looping.exe
+C:\Users\atdic365\Documents\SY22-23\C#\Looping\Looping\obj\Debug\Looping.pdb
