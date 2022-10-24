@@ -1,0 +1,11 @@
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\bin\Debug\Grid.exe.config
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\bin\Debug\Grid.exe
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\bin\Debug\Grid.pdb
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.csproj.AssemblyReference.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.csproj.SuggestedBindingRedirects.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.Form1.resources
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.Properties.Resources.resources
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.csproj.GenerateResource.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.csproj.CoreCompileInputs.cache
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.exe
+C:\Users\atdic365\Documents\SY22-23\C#\Grid\Grid\obj\Debug\Grid.pdb
